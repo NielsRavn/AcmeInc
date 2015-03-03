@@ -6,6 +6,8 @@
 
 package GUI;
 
+import acmeinc.CommandLine;
+
 
 public class AcmeInc {
 
