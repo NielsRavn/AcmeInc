@@ -15,5 +15,7 @@ public class CommandLine {
     public void start(){
         System.out.println("peter peter peter");
         System.out.println("peter is sick");
+        BEIllness illness = new BEIllness("peter", "very dangerous");
+        System.out.println(illness.getName() + " " + illness.getDescription());
     }
 }
