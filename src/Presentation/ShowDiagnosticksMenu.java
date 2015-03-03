@@ -6,7 +6,9 @@
 package Presentation;
 
 import BE.BEIllness;
+import BLL.DiagnoseData;
 import BLL.IllnessData;
+import Models.Diagnose;
 
 /**
  *
@@ -14,8 +16,11 @@ import BLL.IllnessData;
  */
 public class ShowDiagnosticksMenu extends Menu{
 
+    DiagnoseData data;
+    
     public ShowDiagnosticksMenu() {
         super("Show diagnostics menu", " list all diagnostics");
+        data = new DiagnoseData();
     }
 
     @Override
@@ -28,9 +33,13 @@ public class ShowDiagnosticksMenu extends Menu{
     }
 
     private void listAll() {
-        for(BEIllness il : IllnessData.getInstance().getIllnesses()){
-            System.out.println(il.getName() + ": " + il.getDescription());
+        for(Diagnose diag : data.Getall()){
+            System.out.println("Doctor: " + diag.getDoctor() + " || Patient: " + diag.getPatient() + " || Diagnose: " + diag.getDiagnose());
         }
+    }
+
+    private Object DiagnoseData() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
