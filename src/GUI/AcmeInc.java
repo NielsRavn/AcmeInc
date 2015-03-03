@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 
-package acmeinc;
+package GUI;
+
+import acmeinc.CommandLine;
 
 import GUI.MainJFrame;
 import Presentation.MainMenu;
