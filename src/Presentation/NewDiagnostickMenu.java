@@ -48,6 +48,10 @@ public class NewDiagnostickMenu extends Menu{
     }
     
     private void newDiagnose(String dName, String pName, String diagnose){
+        System.out.println("\n \n You hav entered following information : ");
+        System.out.println("Doctors name : "+dName);
+        System.out.println("Patiens name : "+pName);
+        System.out.println("Diagnose : "+diagnose);
         BEDiagnose diag = new BEDiagnose(dName, pName, diagnose);
         DiagnoseData.getInstance().addDiagnose(diag);
     }
