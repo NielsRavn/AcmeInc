@@ -1,8 +1,8 @@
 #README
 
 ###This is the documentation for the ACMEINC project. 
-###
-###
+###Good Luck
+###Have Fun
 
 ###There should be a Main Menu that gives access to two submenu, one for entering a new diagnose 
 and one for showing existing. When you enter a new diagnose you should specify the doctor, patient and his diagnose and then a vote should be 
@@ -26,6 +26,8 @@ one should be able to print a comment to the console, vote++, vote-- and Go back
 ####(SUBMENU for "show diagnoses"):
 ######1. patientname + diagnose + vote
 ######2. ....					
+######3. ....
+######4. ....
 <br>
 <br>
 <br>
