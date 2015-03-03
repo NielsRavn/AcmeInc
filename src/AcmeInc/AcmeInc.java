@@ -6,6 +6,8 @@
 
 package acmeinc;
 
+import Presentation.MainMenu;
+
 
 public class AcmeInc {
 
@@ -13,7 +15,7 @@ public class AcmeInc {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       new CommandLine().start();
+       new MainMenu().run();
     }
     
 }
