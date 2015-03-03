@@ -4,12 +4,14 @@
  * and open the template in the editor.
  */
 
-package acmeinc;
+package BLL;
 
+import BE.BEIllness;
 import java.util.ArrayList;
 
 
 public class IllnessData {
+    
     
     public ArrayList<BEIllness> getIllness(){
         ArrayList<BEIllness> data = new ArrayList<>();

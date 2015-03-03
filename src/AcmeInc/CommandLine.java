@@ -6,6 +6,9 @@
 
 package acmeinc;
 
+import BE.BEIllness;
+import BLL.IllnessData;
+
 public class CommandLine {
     
    
