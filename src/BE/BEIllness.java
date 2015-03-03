@@ -6,15 +6,24 @@
 
 package BE;
 
+import java.util.ArrayList;
+
 
 public class BEIllness {
     private String name;
     private String description;
+    private ArrayList<BESympton> symptons;
     
     
     public BEIllness(String name, String description){
         this.name = name;
         this.description = description;
+    }
+    
+    public BEIllness(String name, String description, ArrayList<BESympton> symptons){
+        this.name = name;
+        this.description = description;
+        this.symptons = symptons;
     }
     
     /**
@@ -31,6 +40,10 @@ public class BEIllness {
      */
     public String getDescription(){
         return this.description;
+    }
+    
+    public ArrayList<BESympton> getSymptons(){
+        return this.symptons;
     }
     
     @Override

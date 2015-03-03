@@ -12,7 +12,7 @@ package Presentation;
 public class NewDiagnostickMenu extends Menu{
 
     public NewDiagnostickMenu() {
-        super("", "");
+        super("Enter name", "Enter diagnose");
     }
 
     @Override
