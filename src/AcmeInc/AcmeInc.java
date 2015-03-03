@@ -6,6 +6,7 @@
 
 package acmeinc;
 
+import GUI.MainJFrame;
 import Presentation.MainMenu;
 
 
@@ -15,7 +16,7 @@ public class AcmeInc {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       new MainMenu().run();
+       new MainJFrame().setVisible(true);
     }
     
 }
