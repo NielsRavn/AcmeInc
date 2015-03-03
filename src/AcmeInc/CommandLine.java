@@ -6,6 +6,9 @@
 
 package acmeinc;
 
+import BE.BEIllness;
+import BLL.IllnessData;
+
 public class CommandLine {
     
    
@@ -13,7 +16,8 @@ public class CommandLine {
      * What happens when the application starts
      */
     public void start(){
-        System.out.println("peter peter peter");
-        System.out.println("peter is sick");
+        for(BEIllness be : new IllnessData().getIllness()){
+            System.out.println(be.getName() + " - " + be.getDescription());
+        }
     }
 }
