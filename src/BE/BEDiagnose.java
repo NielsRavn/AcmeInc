@@ -15,6 +15,16 @@ private ArrayList<BEIllness> illnesses;
 private int upvotes = 0;
 private int downvotes = 0;
 
+
+    
+
+    @Override
+    public String toString() {
+        return "BEDiagnose{" + "doctor=" + doctorName + ", patient=" + patientName + ", diagnose=" + diagnose + '}';
+    }
+
+    
+
     public BEDiagnose(String doctorName, String patientName, String diagnose){
         this.doctorName = doctorName;
         this.patientName = patientName;
