@@ -5,6 +5,9 @@
  */
 package Presentation;
 
+import BE.BEIllness;
+import BLL.IllnessData;
+
 /**
  *
  * @author Niels
@@ -12,12 +15,22 @@ package Presentation;
 public class ShowDiagnosticksMenu extends Menu{
 
     public ShowDiagnosticksMenu() {
-        super("", "");
+        super("Show diagnostics menu", " list all diagnostics");
     }
 
     @Override
     protected void doAction(int option) {
-        
+        switch(option){
+            case 1:
+                listAll();
+                break;
+        }
+    }
+
+    private void listAll() {
+        for(BEIllness il : IllnessData.getInstance().getIllnesses()){
+            System.out.println(il.getName() + ": " + il.getDescription());
+        }
     }
     
 }
