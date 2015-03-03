@@ -12,7 +12,7 @@ package Presentation;
 public class MainMenu extends Menu{
     
     public MainMenu() {
-        super("Main menu for acme inc", "Enter new diagnogsis", "Show diagnogses");
+        super("Main Menu", "Enter new diagnose", "Show diagnoses");
     }
 
     @Override

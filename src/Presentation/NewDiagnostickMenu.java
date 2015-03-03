@@ -5,6 +5,8 @@
  */
 package Presentation;
 
+import BE.BEDiagnose;
+import BLL.DiagnoseData;
 import BLL.IllnessData;
 import java.util.Scanner;
 
@@ -17,17 +19,13 @@ public class NewDiagnostickMenu extends Menu{
     private Scanner sc;
     
     public NewDiagnostickMenu() {
-        super("enter diagnose", "Enter new diagnose");
-        sc = new Scanner(System.in);
+        super("New Diagnose");
+        createNewDiagnose();
     }
-
+    
     @Override
     protected void doAction(int option) {
-        switch(option){
-            case 1: 
-                createNewDiagnose();
-                break;
-        }
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     private void createNewDiagnose(){
@@ -39,14 +37,16 @@ public class NewDiagnostickMenu extends Menu{
         String pName = sc.nextLine();
         System.out.println("Patients name: " + pName);
         System.out.println("");
-        System.out.println("Etner diagnose: ");
+        System.out.println("Enter diagnose: ");
         String diagnose = sc.nextLine();
         
         newDiagnose(dName, pName, diagnose);
     }
     
     private void newDiagnose(String dName, String pName, String diagnose){
-       // Diagnose diag = new Diagnose(dName, pName, diagnose);
+        BEDiagnose diag = new BEDiagnose(dName, pName, diagnose);
+        DiagnoseData.getInstance().addDiagnose(diag);
     }
+
     
 }
