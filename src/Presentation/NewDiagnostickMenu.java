@@ -19,13 +19,17 @@ public class NewDiagnostickMenu extends Menu{
     private Scanner sc;
     
     public NewDiagnostickMenu() {
-        super("New Diagnose");
-        createNewDiagnose();
+        super("New Diagnose", "create diagnose");
+        sc = new Scanner(System.in);
     }
     
     @Override
     protected void doAction(int option) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        switch(option){
+            case 1:
+                createNewDiagnose();
+                break;
+        }
     }
     
     private void createNewDiagnose(){
