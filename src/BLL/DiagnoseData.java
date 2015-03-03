@@ -29,7 +29,7 @@ public class DiagnoseData {
         diagnoses.add(new Diagnose("Elizabeth", "Michael", null));
         diagnoses.add(new Diagnose("Niels", "Anders", null));
         diagnoses.add(new Diagnose("Morten", "Peter", null));
-        diagnoses.add(new Diagnose("Andreas", "Nicolai", null));
+        diagnoses.add(new Diagnose("Andreas", "Nicolai", "Pjækkesyge"));
         diagnoses.add(new Diagnose("Dumbus", "Doofy", null));
     }
     
