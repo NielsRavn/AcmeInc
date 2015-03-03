@@ -6,14 +6,14 @@
 
 package acmeinc;
 
-
-public class AcmeInc {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-       new CommandLine().start();
-    }
+public class CommandLine {
     
+   
+    /**
+     * What happens when the application starts
+     */
+    public void start(){
+        System.out.println("peter peter peter");
+        System.out.println("peter is sick");
+    }
 }
