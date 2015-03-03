@@ -17,7 +17,7 @@ public class ShowDiagnosticksMenu extends Menu{
 
     @Override
     protected void doAction(int option) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
     
 }

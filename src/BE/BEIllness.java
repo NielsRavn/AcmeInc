@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package acmeinc;
+package BE;
 
 
 public class BEIllness {
