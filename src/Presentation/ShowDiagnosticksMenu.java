@@ -5,9 +5,7 @@
  */
 package Presentation;
 
-import BE.BEIllness;
 import BLL.DiagnoseData;
-import BLL.IllnessData;
 import Models.Diagnose;
 
 /**
