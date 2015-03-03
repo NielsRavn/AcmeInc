@@ -32,7 +32,10 @@ public class BEDiagnoses {
     public String getDescription(){
         return this.description;
     }
-    
+    /**
+     * 
+     * @return 
+     */
     @Override
     public String toString(){
         return this.name;
