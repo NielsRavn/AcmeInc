@@ -34,7 +34,7 @@ public class NewDiagnostickMenu extends Menu{
         String pName = sc.nextLine();
         System.out.println("Patients name: " + pName);
         System.out.println("");
-        System.out.println("Etner diagnose: ");
+        System.out.println("Enter diagnose: ");
         String diagnose = sc.nextLine();
         
         newDiagnose(dName, pName, diagnose);
