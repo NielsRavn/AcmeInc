@@ -4,22 +4,22 @@
  * and open the template in the editor.
  */
 
-package acmeinc;
+package BE;
 
 
-public class BEDiagnoses {
+public class BEIllness {
     private String name;
     private String description;
     
     
-    public BEDiagnoses(String name, String description){
+    public BEIllness(String name, String description){
         this.name = name;
         this.description = description;
     }
     
     /**
      *
-     * @return name of diagnoses
+     * @return name of illness
      */
     public String getName(){
         return this.name;
@@ -27,7 +27,7 @@ public class BEDiagnoses {
     
     /**
      * 
-     * @return description of diagnoses
+     * @return description of illness
      */
     public String getDescription(){
         return this.description;
