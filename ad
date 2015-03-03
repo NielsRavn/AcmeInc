@@ -1,0 +1,291 @@
+[33mcommit fabf681d1e5d6e0f9620b8b219a4d7ea7af03a1d[m
+Author: Zoracka <atzoracka@gmail.com>
+Date:   Tue Mar 3 10:14:41 2015 +0100
+
+    added doctor- and patient names to BEDiagnoses
+
+[33mcommit 0b608676b0fa6759ade296898c14252fcae8bdf3[m
+Author: Zoracka <atzoracka@gmail.com>
+Date:   Tue Mar 3 10:11:55 2015 +0100
+
+    merge BEDiagnose
+
+[33mcommit 999ebe7db15a661dc3a15203b29e2724de53666f[m
+Merge: 4c748a3 dcc3cc6
+Author: Zoracka <atzoracka@gmail.com>
+Date:   Tue Mar 3 10:10:44 2015 +0100
+
+    Merge branch 'andreas'
+
+[33mcommit dcc3cc66c9db70e3f34c3478f90f1e5b7b13472c[m
+Author: Zoracka <atzoracka@gmail.com>
+Date:   Tue Mar 3 10:07:10 2015 +0100
+
+    be diagnose added
+
+[33mcommit 4c748a33ae6c57387597825c865eb3eef35c53f3[m
+Merge: 96165ba 8979442
+Author: Christian Haase <Christian.haase.93@gmail.com>
+Date:   Tue Mar 3 10:01:26 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc
+
+[33mcommit 96165ba52568308b2f592f1f09445e3fe045e477[m
+Author: Christian Haase <Christian.haase.93@gmail.com>
+Date:   Tue Mar 3 10:01:13 2015 +0100
+
+    Menu for creating a new diagnose created - Fix the IllnessData to use Diagnose instead of BEIllness
+
+[33mcommit 897944261a7d6b90dd00c61f5d33ab21b539d974[m
+Merge: 8402ca4 1a1cb32
+Author: Poul Nielsen <poul@rgb-web.dk>
+Date:   Tue Mar 3 09:58:17 2015 +0100
+
+    hulla hop ring
+
+[33mcommit 8402ca42c35921bc92f89acbf905371be6bb5c69[m
+Merge: 473e29e ac4ae68
+Author: Poul Nielsen <poul@rgb-web.dk>
+Date:   Tue Mar 3 09:55:05 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc
+
+[33mcommit 1a1cb32101d19da52ec3747f95d7fc312b683bc9[m
+Author: Poul Nielsen <poul@rgb-web.dk>
+Date:   Tue Mar 3 09:52:34 2015 +0100
+
+    hello
+
+[33mcommit ac4ae686dd85d165d84380dcc89ff7da49133247[m
+Author: Christian Haase <Christian.haase.93@gmail.com>
+Date:   Tue Mar 3 09:48:46 2015 +0100
+
+    k
+
+[33mcommit 11706b5fef7e9cc325e75a33119c863810678046[m
+Merge: b0c3554 47c414c
+Author: Zoracka <atzoracka@gmail.com>
+Date:   Tue Mar 3 09:47:03 2015 +0100
+
+    error
+
+[33mcommit b0c3554d0691e7ad5c97eac749069d1b4546b6fd[m
+Merge: 0becb68 ca776bd
+Author: Zoracka <atzoracka@gmail.com>
+Date:   Tue Mar 3 09:45:48 2015 +0100
+
+    merge andreas. added symptons
+
+[33mcommit 47c414cb24fa667c4e5809fb6a2ee4bc0dca39d5[m
+Author: Christian Haase <Christian.haase.93@gmail.com>
+Date:   Tue Mar 3 09:42:29 2015 +0100
+
+    No errors anymore?
+
+[33mcommit ca776bda00b7470fa5ed55f9cb633fe5ba32fd3a[m
+Author: Zoracka <atzoracka@gmail.com>
+Date:   Tue Mar 3 09:40:54 2015 +0100
+
+    ?
+
+[33mcommit 0becb68f190bf5531368db4b32672ec8af116f69[m
+Merge: e8f602a c4a277e
+Author: Christian Haase <Christian.haase.93@gmail.com>
+Date:   Tue Mar 3 09:40:44 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc
+
+[33mcommit e8f602addda9c754bcdd60abf5c393cd97be340d[m
+Author: Christian Haase <Christian.haase.93@gmail.com>
+Date:   Tue Mar 3 09:40:29 2015 +0100
+
+    .
+
+[33mcommit f70d647fde5876c3518f840f09cbda948c5a14ff[m
+Author: Poul Nielsen <poul@rgb-web.dk>
+Date:   Tue Mar 3 09:40:17 2015 +0100
+
+    we are having fun
+
+[33mcommit c4a277eb6fedb070c972fd97f4d7a5e652c91d56[m
+Merge: d8d1181 0c42669
+Author: niels <nkr@techraven.dk>
+Date:   Tue Mar 3 09:38:44 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc
+
+[33mcommit d8d11812e8b576172ce5d90c6f77ffa8b253c7c3[m
+Merge: 2c3331d cc42eac
+Author: niels <nkr@techraven.dk>
+Date:   Tue Mar 3 09:38:06 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc
+
+[33mcommit 27e0c6daac493b90d92d7805bfe50363f7dd4861[m
+Merge: 9d80f12 0c42669
+Author: Christian Haase <Christian.haase.93@gmail.com>
+Date:   Tue Mar 3 09:38:01 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc
+
+[33mcommit 0c4266922bf02f1645b87781f5c11c8480ca036f[m
+Author: mipe85 <mich89g5@easv365.dk>
+Date:   Tue Mar 3 09:38:00 2015 +0100
+
+    Readme11
+
+[33mcommit 9d80f1230eb3646d0d5d8e42f754db8ec8f2e45f[m
+Merge: 717d19d cc42eac
+Author: Christian Haase <Christian.haase.93@gmail.com>
+Date:   Tue Mar 3 09:37:39 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc
+
+[33mcommit 473e29e05ba3475e52fe1dee600680c9a4fd472c[m
+Merge: 1efa55f cc42eac
+Author: Poul Nielsen <poul@rgb-web.dk>
+Date:   Tue Mar 3 09:37:38 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc
+
+[33mcommit 2c3331db5242aae18f41cf932d5eb252df0dad1c[m
+Merge: a09561e 3da0beb
+Author: niels <nkr@techraven.dk>
+Date:   Tue Mar 3 09:37:21 2015 +0100
+
+    Merge branch 'niels'
+
+[33mcommit cc42eacc01a82b9c1bca8c3716205b3a133f3747[m
+Author: mipe85 <mich89g5@easv365.dk>
+Date:   Tue Mar 3 09:37:15 2015 +0100
+
+    Readme10
+
+[33mcommit 717d19d99af1aebfba6301efd565db6e2ad40210[m
+Merge: 0d8d6de a09561e
+Author: Christian Haase <Christian.haase.93@gmail.com>
+Date:   Tue Mar 3 09:37:04 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc
+
+[33mcommit 4fbd769dd2d378362a52732504adf47a5c43294c[m
+Author: Zoracka <atzoracka@gmail.com>
+Date:   Tue Mar 3 09:36:28 2015 +0100
+
+    added BE Sympton
+
+[33mcommit a09561ee0966dce06749e674360a6632445e3cd9[m
+Author: mipe85 <mich89g5@easv365.dk>
+Date:   Tue Mar 3 09:36:01 2015 +0100
+
+    Readme9
+
+[33mcommit 99131fe338345055fb9e8318b86d2e19edb89600[m
+Author: mipe85 <mich89g5@easv365.dk>
+Date:   Tue Mar 3 09:35:04 2015 +0100
+
+    Readme8
+
+[33mcommit 3da0bebeae8caaee7a6432d736917e22c2b7fd15[m
+Merge: 80d5054 b686639
+Author: niels <nkr@techraven.dk>
+Date:   Tue Mar 3 09:35:00 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc into niels
+
+[33mcommit 80d5054057516110e511e104f6914bfe3242765a[m
+Author: niels <nkr@techraven.dk>
+Date:   Tue Mar 3 09:34:17 2015 +0100
+
+    stuff maybe
+
+[33mcommit 0d8d6de02f312558f52dfe2f691623a3c4e3b0a8[m
+Author: Christian Haase <Christian.haase.93@gmail.com>
+Date:   Tue Mar 3 09:33:30 2015 +0100
+
+    com
+
+[33mcommit b686639e19c4e1be5976956f08ae98060c9d0b53[m
+Author: mipe85 <mich89g5@easv365.dk>
+Date:   Tue Mar 3 09:32:49 2015 +0100
+
+    Readme7
+
+[33mcommit aff15e0f50146e003bdb1a3bdd4218876016b2e8[m
+Author: mipe85 <mich89g5@easv365.dk>
+Date:   Tue Mar 3 09:31:58 2015 +0100
+
+    Readme6
+
+[33mcommit b6c6ab260f98c117db88e22cafeff852d5523703[m
+Author: mipe85 <mich89g5@easv365.dk>
+Date:   Tue Mar 3 09:31:01 2015 +0100
+
+    Readme5
+
+[33mcommit e4e36fa57d978c8b92f05b1bd9a1e6ce40d0a4b1[m
+Merge: 0c22795 6a5639f
+Author: niels <nkr@techraven.dk>
+Date:   Tue Mar 3 09:30:30 2015 +0100
+
+    Merge branch 'Christian' of https://github.com/NielsRavn/AcmeInc into niels
+
+[33mcommit 0c22795d7aeac66278017a23cde54db49e09bfd2[m
+Merge: b276f4d e51450f
+Author: mipe85 <mich89g5@easv365.dk>
+Date:   Tue Mar 3 09:29:01 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc
+
+[33mcommit b276f4d093edcb99437cef31217dc638ecd8bde4[m
+Author: mipe85 <mich89g5@easv365.dk>
+Date:   Tue Mar 3 09:28:43 2015 +0100
+
+    Readme4
+
+[33mcommit 1efa55f2b0ec39bc0fc65411bfacc2086b9a4629[m
+Merge: e32b796 e51450f
+Author: Poul Nielsen <poul@rgb-web.dk>
+Date:   Tue Mar 3 09:21:24 2015 +0100
+
+    hello world
+
+[33mcommit e51450ffadedca4089022e9b9c649a9b7a4b38fa[m
+Merge: 6f70731 48e36c1
+Author: niels <nkr@techraven.dk>
+Date:   Tue Mar 3 09:18:19 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc
+
+[33mcommit 6f70731be0d9822bd8395171d6e5b89ee10a26e1[m
+Author: niels <nkr@techraven.dk>
+Date:   Tue Mar 3 09:17:57 2015 +0100
+
+    THREE LAYER!!! We awe not animals...
+
+[33mcommit 48e36c1b6fc12224f6d20ac3afec46073dbb5093[m
+Author: mipe85 <mich89g5@easv365.dk>
+Date:   Tue Mar 3 09:17:24 2015 +0100
+
+    Readme3
+
+[33mcommit 08727c584ef88acc7475d71d097bf4e10d36a97d[m
+Merge: 7195dc0 91b6d3c
+Author: mipe85 <mich89g5@easv365.dk>
+Date:   Tue Mar 3 09:14:59 2015 +0100
+
+    Merge branch 'master' of https://github.com/NielsRavn/AcmeInc
+
+[33mcommit 7195dc0710fa544c2d010135c7168c1ddebeec50[m
+Author: mipe85 <mich89g5@easv365.dk>
+Date:   Tue Mar 3 09:14:50 2015 +0100
+
+    Readme2
+
+[33mcommit 91b6d3c317fbf5f0a929f322b95b1f81a509c500[m
+Author: Zoracka <atzoracka@gmail.com>
+Date:   Tue Mar 3 09:14:25 2015 +0100
+
+    merge
+
+[33mcomm
