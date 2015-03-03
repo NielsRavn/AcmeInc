@@ -5,7 +5,9 @@
  */
 package Presentation;
 
+import BE.BEDiagnose;
 import BE.BEIllness;
+import BLL.DiagnoseData;
 import BLL.IllnessData;
 
 /**
@@ -28,8 +30,8 @@ public class ShowDiagnosticksMenu extends Menu{
     }
 
     private void listAll() {
-        for(BEIllness il : IllnessData.getInstance().getIllnesses()){
-            System.out.println(il.getName() + ": " + il.getDescription());
+        for(BEDiagnose diag : DiagnoseData.getInstance().getDiagnoses()){
+            System.out.println(diag);
         }
     }
     
