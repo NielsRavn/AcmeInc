@@ -13,24 +13,35 @@ import java.util.Scanner;
  */
 public class NewDiagnostickMenu extends Menu{
 
+    private Scanner sc;
+    
     public NewDiagnostickMenu() {
         super("New Diagnose");
-        newDiagnose();
+        createNewDiagnose();
     }
     
-    public void newDiagnose(){
-        Scanner scan = new Scanner(System.in);
-        String doctorName = scan.nextLine();
-        String patientName = scan.nextLine();
-        String diagnose = scan.nextLine();
-        
-    }
-    
-    
-
     @Override
     protected void doAction(int option) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    private void createNewDiagnose(){
+        System.out.println("Enter doctors name: ");
+        String dName = sc.nextLine();
+        System.out.println("Doctors name: " + dName);
+        System.out.println("");
+        System.out.println("Enter patients name: ");
+        String pName = sc.nextLine();
+        System.out.println("Patients name: " + pName);
+        System.out.println("");
+        System.out.println("Etner diagnose: ");
+        String diagnose = sc.nextLine();
+        
+        newDiagnose(dName, pName, diagnose);
+    }
+    
+    private void newDiagnose(String dName, String pName, String diagnose){
+       // Diagnose diag = new Diagnose(dName, pName, diagnose);
     }
 
     
