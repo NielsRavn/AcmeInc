@@ -5,6 +5,8 @@
  */
 package Presentation;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Niels
@@ -12,12 +14,24 @@ package Presentation;
 public class NewDiagnostickMenu extends Menu{
 
     public NewDiagnostickMenu() {
-        super("Enter name", "Enter diagnose");
+        super("New Diagnose");
+        newDiagnose();
     }
+    
+    public void newDiagnose(){
+        Scanner scan = new Scanner(System.in);
+        String doctorName = scan.nextLine();
+        String patientName = scan.nextLine();
+        String diagnose = scan.nextLine();
+        
+    }
+    
+    
 
     @Override
     protected void doAction(int option) {
-        
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
     
 }
