@@ -8,14 +8,14 @@ package BE;
 
 import java.util.ArrayList;
 
-public class BEDiagnostic {
+public class BEDiagnose {
     
 private String diagnose;
 private ArrayList<BEIllness> illnesses;
 private int upvotes = 0;
 private int downvotes = 0;
 
-    public BEDiagnostic(String diagnose){
+    public BEDiagnose(String diagnose){
         this.diagnose = diagnose;
     }
     

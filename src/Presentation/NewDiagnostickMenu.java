@@ -6,7 +6,6 @@
 package Presentation;
 
 import BLL.IllnessData;
-import Models.Diagnose;
 import java.util.Scanner;
 
 /**
@@ -47,7 +46,7 @@ public class NewDiagnostickMenu extends Menu{
     }
     
     private void newDiagnose(String dName, String pName, String diagnose){
-        Diagnose diag = new Diagnose(dName, pName, diagnose);
+       // Diagnose diag = new Diagnose(dName, pName, diagnose);
     }
     
 }
