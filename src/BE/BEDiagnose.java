@@ -10,42 +10,24 @@ import java.util.ArrayList;
 
 public class BEDiagnose {
     
-    private String doctor, patient;
-private String diagnose;
+private String diagnose, doctorName, patientName;
 private ArrayList<BEIllness> illnesses;
 private int upvotes = 0;
 private int downvotes = 0;
 
-    public BEDiagnose(String doctor, String patient, String diagnose) {
-        this.doctor = doctor;
-        this.patient = patient;
-        this.diagnose = diagnose;
-    }
 
-    public String getDoctor() {
-        return doctor;
-    }
-
-    public void setDoctor(String doctor) {
-        this.doctor = doctor;
-    }
-
-    public String getPatient() {
-        return patient;
-    }
-
-    public void setPatient(String patient) {
-        this.patient = patient;
-    }
+    
 
     @Override
     public String toString() {
-        return "BEDiagnose{" + "doctor=" + doctor + ", patient=" + patient + ", diagnose=" + diagnose + '}';
+        return "BEDiagnose{" + "doctor=" + doctorName + ", patient=" + patientName + ", diagnose=" + diagnose + '}';
     }
 
     
 
-    public BEDiagnose(String diagnose){
+    public BEDiagnose(String doctorName, String patientName, String diagnose){
+        this.doctorName = doctorName;
+        this.patientName = patientName;
         this.diagnose = diagnose;
     }
     

@@ -19,17 +19,13 @@ public class NewDiagnostickMenu extends Menu{
     private Scanner sc;
     
     public NewDiagnostickMenu() {
-        super("enter diagnose", "Enter new diagnose");
-        sc = new Scanner(System.in);
+        super("New Diagnose");
+        createNewDiagnose();
     }
-
+    
     @Override
     protected void doAction(int option) {
-        switch(option){
-            case 1: 
-                createNewDiagnose();
-                break;
-        }
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     private void createNewDiagnose(){
@@ -51,5 +47,6 @@ public class NewDiagnostickMenu extends Menu{
         BEDiagnose diag = new BEDiagnose(dName, pName, diagnose);
         DiagnoseData.getInstance().addDiagnose(diag);
     }
+
     
 }
